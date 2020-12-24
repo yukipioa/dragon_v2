@@ -27,14 +27,13 @@
 <body>
   <div id="card">
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
-    <model-viewer 
-                  camera-controls autoplay
-                  ar
-                  shadow-intensity="1"
-                  src="dragon_2.5_for_animations.glb"
+    <model-viewer src="dragon_2.5_for_animations.glb"
                   ios-src="dragon.usdz"
-                  poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
-                  alt="A 3D model of an astronaut">
+                  alt="A 3D model of an dragon"
+                  shadow-intensity="1"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap>
     </model-viewer>
     
     <section class="attribution">
